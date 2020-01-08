@@ -6,6 +6,7 @@
 
 ### 主线一：封装node http Server: 从hello world说起
 原生实现http模块实现一个服务
+```
 let http = require('http');
 
 let server=http.createServer((req,res)=>{
@@ -16,10 +17,10 @@ let server=http.createServer((req,res)=>{
 server.listen(3000,()=>{
     console.log('listenning on 3000');
 })
-`
+```
 ---
 创建application.js实现一个Application对象
-`
+```
 l/*
  * @Description: 实现一个简单的koa
  * @Author: dingxuejin
@@ -69,10 +70,10 @@ class Application{
 }
 
 module.exports = Application;
-`
+```
 ---
 创建example.js
-`
+```
 let dingKoa=require('./application');
 let app =new dingKoa();
 
@@ -84,5 +85,5 @@ app.use((req,res)=>{
 app.listen(3000,()=>{
     console.log('listening on 3000');
 })
-`
+```
 ### 主线二：构造request, response, context对象
