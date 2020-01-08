@@ -1,8 +1,8 @@
 ## 四条主线
->封住node,http,server
->构造request,response,contex对象
->中间件机制
->错误处理
+>>>封住node,http,server
+>>>构造request,response,contex对象
+>>>中间件机制
+>>>错误处理
 
 ### 主线一：封装node http Server: 从hello world说起
 原生实现http模块实现一个服务
