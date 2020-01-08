@@ -1,0 +1,23 @@
+{
+  "name": "dingkoa",
+  "version": "1.0.0",
+  "description": "从头到尾实现自己的koa",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken-dingxj/dingKoa.git"
+  },
+  "keywords": [
+    "ding",
+    "koa"
+  ],
+  "author": "dingxuejin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ken-dingxj/dingKoa/issues"
+  },
+  "homepage": "https://github.com/ken-dingxj/dingKoa#readme"
+}
